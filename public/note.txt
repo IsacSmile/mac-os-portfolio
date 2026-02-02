@@ -1,0 +1,108 @@
+/**
+ * @file: profile.config.ts
+ * @author: Faiz Imam
+ * @summary: Frontend-focused developer with solid backend knowledge,
+ * guided by discipline, consistency, and trust in Allah.
+ *
+ * "And say: My Lord, increase me in knowledge." — Qur'an 20:114
+ */
+
+// --------------------------------------------------
+// 1. CORE SKILLS & TECH STACK
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "HTML5",        // Strong
+    "CSS3",         // Strong
+    "JavaScript",   // Strong
+    "React.js",     // Primary Strength
+    "Responsive Design",
+    "Component-Based UI",
+  ],
+  backend: [
+    "Node.js",      // Good Understanding
+    "Express.js",   // API Development
+    "MongoDB",      // CRUD, Schema Design
+    "REST APIs",    // Auth, Data Flow
+  ],
+  tools: [
+    "Git & GitHub",
+    "Linux",
+    "VS Code",
+    "Postman",
+    "Figma (UI Reference)",
+  ],
+};
+
+// --------------------------------------------------
+// 2. DEVELOPER JOURNEY
+// --------------------------------------------------
+
+class DeveloperJourney {
+
+  /**
+   * @period 2024 - Present
+   */
+  public EngineeringPath(): object {
+    const role = "Frontend Developer with Backend Understanding";
+
+    const focus = [
+      "Building clean, accessible, and responsive user interfaces",
+      "Developing and integrating REST APIs",
+      "Understanding full request–response lifecycle",
+      "Writing maintainable and readable code",
+    ];
+
+    const belief =
+      "Skills grow with effort, but success comes only by the will of Allah.";
+
+    return { role, focus, belief };
+  }
+
+  /**
+   * @note Continuous Learning
+   */
+  public DailyPractice(): void {
+    // Strengthening React & JavaScript fundamentals
+    // Practicing backend logic with Node & MongoDB
+    // Studying real-world system flow
+    // Improving consistency with discipline and patience
+  }
+}
+
+// --------------------------------------------------
+// 3. PROJECT HIGHLIGHTS
+// --------------------------------------------------
+
+interface Project {
+  name: string;
+  description: string;
+}
+
+const projects: Project[] = [
+  {
+    name: "Mac-OS Inspired Portfolio",
+    description:
+      "A React-based interactive portfolio featuring a desktop-style UI, terminal commands, and component-driven architecture.",
+  },
+  {
+    name: "Full-Stack Practice Projects",
+    description:
+      "Projects combining frontend interfaces with backend APIs for authentication, data handling, and logic building.",
+  },
+];
+
+// --------------------------------------------------
+// 4. EDUCATION
+// --------------------------------------------------
+
+const education = new Map<string, string>([
+  ["Bachelor of Technology", "Information Technology (Ongoing)"],
+]);
+
+// --------------------------------------------------
+// EXPORT
+// --------------------------------------------------
+
+export default new DeveloperJourney();
